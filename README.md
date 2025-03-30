@@ -6,9 +6,7 @@ Gepeto is a virtual assistant that uses **LangChain** and **Groq** to interact w
 
 ## 🚀 Features
 
-- 📼 Retrieves information from websites, PDFs, and YouTube videos  
 - 🧠 Natural language processing for contextual responses  
-- 🌟 Interactive terminal interface  
 
 ---
 
@@ -44,11 +42,6 @@ pip install -r requirements.txt
 python gepeto.py
 ```
 
-2️⃣ **Choose the information source:**  
-- **1** to load content from a website  
-- **2** to process a PDF file  
-- **3** to extract transcription from a YouTube video  
-
 3️⃣ **Interact with the chatbot** by typing questions in the terminal.  
 
 4️⃣ **To exit**, type **"x"**.  
@@ -59,16 +52,12 @@ python gepeto.py
 
 - **LangChain** → Conversational AI framework  
 - **Groq** → AI model for generating responses  
-- **WebBaseLoader** → To load website content  
-- **PyPDFLoader** → To process PDF files  
-- **YoutubeLoader** → To extract subtitles from videos  
 
 ---
 
 ## 💡 Future Improvements
 
 🗰 Implement conversation history in a database  
-🔊 Add support for voice input and output  
 💻 Create a graphical user interface  
 
 ---
@@ -102,7 +91,6 @@ Gepeto é um assistente virtual que utiliza **LangChain** e **Groq** para intera
 
 ## 🚀 Funcionalidades  
 
-- 📼 Obtém informações de sites, PDFs e vídeos do YouTube  
 - 🧠 Processamento de linguagem natural para respostas contextuais  
 - 🌟 Interface interativa no terminal  
 
@@ -140,11 +128,6 @@ pip install -r requirements.txt
 python gepeto.py
 ```
 
-2️⃣ **Escolha a fonte de informação:**  
-- **1** para carregar conteúdo de um site  
-- **2** para processar um arquivo PDF  
-- **3** para extrair transcrição de um vídeo do YouTube  
-
 3️⃣ **Interaja com o chatbot** digitando perguntas no terminal.  
 
 4️⃣ **Para sair**, digite **"x"**.  
@@ -155,16 +138,12 @@ python gepeto.py
 
 - **LangChain** → Framework para IA conversacional  
 - **Groq** → Modelo de IA para geração de respostas  
-- **WebBaseLoader** → Para carregar conteúdo de sites  
-- **PyPDFLoader** → Para processar arquivos PDF  
-- **YoutubeLoader** → Para extrair legendas de vídeos  
 
 ---
 
 ## 💡 Melhorias Futuras  
 
 🗰 Implementar histórico de conversa em banco de dados  
-🔊 Adicionar suporte a entrada e saída de voz  
 💻 Criar uma interface gráfica  
 
 ---
